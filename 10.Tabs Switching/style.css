@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 140px;
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 15px;
+}
+
+.para {
+  height: 140px;
+  padding: 8px;
+  width: 40vw;
+  border: 2px dashed rgb(248, 68, 170);
+  background-color: black;
+  display: none;
+}
+.para.active {
+  display: block;
+}
+.purple {
+  background-color: purple;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}

@@ -1,0 +1,23 @@
+.container {
+  height: 50vh;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn {
+  height: 80px;
+  width: 150px;
+  background-color: bisque;
+  margin: 4rem;
+}
+.number {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+select {
+  width: 250px;
+  height: 40px;
+}
+
+ul li {
+  list-style: none;
+}
+.drop-down{
+    margin: 2rem;
+    display: flex;
+}

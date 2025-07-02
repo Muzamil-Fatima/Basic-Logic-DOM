@@ -3,11 +3,9 @@ const body = document.body;
 
 btns.forEach((btn) => {
   btn.addEventListener("click", () => {
-    number = btn.value;
-    changeBackground(number);
+    changeBackground(btn.value);
   });
 });
-
 
 function changeBackground(color){
     body.className = "";

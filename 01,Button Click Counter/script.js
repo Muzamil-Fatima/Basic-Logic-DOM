@@ -1,10 +1,10 @@
 //  only work in first button
-let button = document.querySelector('.btn')
-button.addEventListener("click", handelClick, true)
+let button = document.querySelector(".btn");
+button.addEventListener("click", handelClick, true);
 
-function handelClick(){
-    button.innerText = "Button Clicked!"
-    console.log("Button Clicked!")
+function handelClick() {
+  button.innerText = "Button Clicked!";
+  console.log("Button Clicked!");
 }
 
 //  now work in all button
